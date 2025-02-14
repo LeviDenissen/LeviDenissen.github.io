@@ -3,18 +3,26 @@ project:
   output-dir: docs
 
 website:
-  title: "LeviDenissen.github.io"
+  title: "Levi Denissen"
+  page-footer: 
+    background: 'dark'
+    left: Copyright 2025, Levi Denissen
+    right: This website was built with Github, Rstudio, and Quarto
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: resume.pdf
+        text: Resume
+      - href: projects.qmd
+        text: Projects
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: styles.scss
     toc: true
+    page-layout: full
 
 editor: visual
 

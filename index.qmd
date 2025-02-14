@@ -1,11 +1,20 @@
 ---
-titinsle: "LeviDenissen.github.io"
+toc: true
+title: "Levi Denissen"
+image: headshot.jpeg
+about: 
+  template: solana
+  image-shape: rectangle
+  links: 
+    - text: Github
+      icon: github
+      href: https://github.com/LeviDenissen 
+    - text: Handshake
+      href: https://colostate.joinhandshake.com/profiles/buadgy
+    - text: LinkedIn
+      icon: linkedin
+      href: https://www.linkedin.com/in/levi-denissen-a21a4b349/
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
+```{}
 ```
